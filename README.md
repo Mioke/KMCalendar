@@ -10,6 +10,7 @@ Bacis operations:
 1.Download or clone from github, copy the `KMCalendar` folder into your project.
 
 2.`#import "KMCalendar"` where you want to use.
+
 3.Initialize the calendar use custom function, deliver `recordDateArray` will show the little dot under the day.
 
 ```objective-c
@@ -18,13 +19,41 @@ Bacis operations:
                                         andResizeBlock:^{
                                             // do UI Resize if need
                                         }];
-    self.calendar.delegate = self;
-    [self.view addSubview:self.calendar];
+  self.calendar.delegate = self;
+  [self.view addSubview:self.calendar];
 ```
 
 4.Conform the protocol of `KMCalendarDelegate`.
+```objective-c
+ #pragma mark - KMCalendarDelegate
+
+- (void)calendarSelectedDate:(NSDate *)date {
+    KMLog(@"%@", date);
+}
+
+#pragma mark - UIScrollViewDelegate 
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat yOffset = scrollView.contentOffset.y;
+    [self.calendar scrollingAnimationWithOffset:yOffset];
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
+    CGFloat yOffset = scrollView.contentOffset.y;
+    [self.calendar endDragAnimationWithOffset:yOffset scrollView:scrollView];
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    CGFloat yOffset = scrollView.contentOffset.y;
+    [self.calendar endDecelaratingAnimationWithOffset:yOffset scrollView:scrollView];
+}
+```
 
 5.Usage in `UIScrollView` the other views would be layout under the calendar. In `UITableView`, you should set the `EdgeInset` of tableView, inset.top should be calendar's height + gap width.
+
 6.See more information, you can see the demo inside the project.
 
 # LICENCE
