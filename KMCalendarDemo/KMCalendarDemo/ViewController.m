@@ -77,7 +77,6 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     CGFloat yOffset = scrollView.contentOffset.y;
-    
     [self.calendar scrollingAnimationWithOffset:yOffset];
 }
 
@@ -91,6 +90,5 @@
 {
     CGFloat yOffset = scrollView.contentOffset.y;
     [self.calendar endDecelaratingAnimationWithOffset:yOffset scrollView:scrollView];
-    
 }
 @end
