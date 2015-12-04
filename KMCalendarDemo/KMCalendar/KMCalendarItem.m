@@ -11,7 +11,7 @@
 @implementation KMCalendarItem
 {
     UIImageView *_dot;
-    UIImageView *_selectedView;
+    UIView *_selectedView;
     
     void (^_clickBlock)(KMCalendarItem *item);
 }
@@ -43,8 +43,11 @@
         _dot.contentMode = UIViewContentModeScaleAspectFit;
         
         [self setBackgroundColor:[UIColor whiteColor]];
-        _selectedView = [[UIImageView alloc] initWithFrame:CGRectMake((ITEM_WIDTH - 18.f) / 2, 6.f, 18.f, 18.)];
-        [_selectedView setImage:[UIImage imageNamed:@"circleGreen"]];
+        _selectedView = [[UIView alloc] initWithFrame:CGRectMake((ITEM_WIDTH - 18.f) / 2, 6.f, 18.f, 18.)];
+        _selectedView.backgroundColor = DEFAULT_TINT_COLOR;
+        _selectedView.layer.cornerRadius = _selectedView.frame.size.height / 2;
+        _selectedView.layer.masksToBounds = YES;
+//        [_selectedView setImage:[UIImage imageNamed:@"circleGreen"]];
         
         [self setDay:title outOfMonth:yesOrNo isToday:isToday isRecord:yesOrNo];
         [self.titleLabel setFont:DEFAULT_FONT];
@@ -76,7 +79,7 @@
         return;
     }
     if (yesOrNO) {
-        [self setTitleColor:DEFAULT_TINT_COLOR forState:UIControlStateNormal];
+        [self setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
     } else {
         [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     }

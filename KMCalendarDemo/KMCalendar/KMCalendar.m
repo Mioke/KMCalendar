@@ -248,8 +248,8 @@
     [self.footerView addSubview:dot];
     
     _footerLine = [[UIView alloc] initWithFrame:CGRectMake(0.f, self.frame.size.height - 0.5f, UI_SCREEN_WIDTH, 0.5f)];
+    _footerLine.backgroundColor = [UIColor grayColor];
     
-    _footerLine.backgroundColor = ASSIST_LINE_COLOR;
     [self addSubview:_footerLine];
 }
 
