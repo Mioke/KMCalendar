@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7826FAC1C113B10007AA18D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7826FAB1C113B10007AA18D /* main.m */; };
+		A7826FAF1C113B10007AA18D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7826FAE1C113B10007AA18D /* AppDelegate.m */; };
+		A7826FB21C113B10007AA18D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7826FB11C113B10007AA18D /* ViewController.m */; };
+		A7826FB51C113B10007AA18D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7826FB31C113B10007AA18D /* Main.storyboard */; };
+		A7826FB71C113B10007AA18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7826FB61C113B10007AA18D /* Assets.xcassets */; };
+		A7826FBA1C113B10007AA18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7826FB81C113B10007AA18D /* LaunchScreen.storyboard */; };
+		A7826FD71C113BB0007AA18D /* NSDate+KMCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = A7826FD61C113BB0007AA18D /* NSDate+KMCalendar.m */; };
+		A7826FDA1C113C66007AA18D /* KMCalendarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A7826FD91C113C66007AA18D /* KMCalendarHelper.m */; };
+		A7826FDD1C113CFA007AA18D /* KMCalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A7826FDC1C113CFA007AA18D /* KMCalendarItem.m */; };
+		A7826FE01C113F84007AA18D /* KMCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7826FDF1C113F84007AA18D /* KMCalendarView.m */; };
+		A7826FE31C11418C007AA18D /* KMCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7826FE21C11418C007AA18D /* KMCalendarHeaderView.m */; };
+		A7826FE61C1142C7007AA18D /* KMCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = A7826FE51C1142C7007AA18D /* KMCalendar.m */; };
+		A7826FE91C114728007AA18D /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A7826FE81C114728007AA18D /* UIColor+Hex.m */; };
+		A7826FEB1C114785007AA18D /* dotGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7826FEA1C114785007AA18D /* dotGreen@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7826FA71C113B10007AA18D /* KMCalendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMCalendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7826FAB1C113B10007AA18D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7826FAD1C113B10007AA18D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7826FAE1C113B10007AA18D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7826FB01C113B10007AA18D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7826FB11C113B10007AA18D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7826FB41C113B10007AA18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7826FB61C113B10007AA18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7826FB91C113B10007AA18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7826FBB1C113B10007AA18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7826FD51C113BB0007AA18D /* NSDate+KMCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KMCalendar.h"; sourceTree = "<group>"; };
+		A7826FD61C113BB0007AA18D /* NSDate+KMCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KMCalendar.m"; sourceTree = "<group>"; };
+		A7826FD81C113C66007AA18D /* KMCalendarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCalendarHelper.h; sourceTree = "<group>"; };
+		A7826FD91C113C66007AA18D /* KMCalendarHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMCalendarHelper.m; sourceTree = "<group>"; };
+		A7826FDB1C113CFA007AA18D /* KMCalendarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCalendarItem.h; sourceTree = "<group>"; };
+		A7826FDC1C113CFA007AA18D /* KMCalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMCalendarItem.m; sourceTree = "<group>"; };
+		A7826FDE1C113F84007AA18D /* KMCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCalendarView.h; sourceTree = "<group>"; };
+		A7826FDF1C113F84007AA18D /* KMCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMCalendarView.m; sourceTree = "<group>"; };
+		A7826FE11C11418C007AA18D /* KMCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCalendarHeaderView.h; sourceTree = "<group>"; };
+		A7826FE21C11418C007AA18D /* KMCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMCalendarHeaderView.m; sourceTree = "<group>"; };
+		A7826FE41C1142C7007AA18D /* KMCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCalendar.h; sourceTree = "<group>"; };
+		A7826FE51C1142C7007AA18D /* KMCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMCalendar.m; sourceTree = "<group>"; };
+		A7826FE71C114728007AA18D /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		A7826FE81C114728007AA18D /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		A7826FEA1C114785007AA18D /* dotGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dotGreen@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7826FA41C113B10007AA18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7826F9E1C113B10007AA18D = {
+			isa = PBXGroup;
+			children = (
+				A7826FC11C113B32007AA18D /* KMCalendar */,
+				A7826FA91C113B10007AA18D /* KMCalendarDemo */,
+				A7826FA81C113B10007AA18D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7826FA81C113B10007AA18D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7826FA71C113B10007AA18D /* KMCalendarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7826FA91C113B10007AA18D /* KMCalendarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A7826FAD1C113B10007AA18D /* AppDelegate.h */,
+				A7826FAE1C113B10007AA18D /* AppDelegate.m */,
+				A7826FB01C113B10007AA18D /* ViewController.h */,
+				A7826FB11C113B10007AA18D /* ViewController.m */,
+				A7826FB31C113B10007AA18D /* Main.storyboard */,
+				A7826FB61C113B10007AA18D /* Assets.xcassets */,
+				A7826FB81C113B10007AA18D /* LaunchScreen.storyboard */,
+				A7826FBB1C113B10007AA18D /* Info.plist */,
+				A7826FAA1C113B10007AA18D /* Supporting Files */,
+			);
+			path = KMCalendarDemo;
+			sourceTree = "<group>";
+		};
+		A7826FAA1C113B10007AA18D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7826FAB1C113B10007AA18D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7826FC11C113B32007AA18D /* KMCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				A7826FD51C113BB0007AA18D /* NSDate+KMCalendar.h */,
+				A7826FD61C113BB0007AA18D /* NSDate+KMCalendar.m */,
+				A7826FD81C113C66007AA18D /* KMCalendarHelper.h */,
+				A7826FD91C113C66007AA18D /* KMCalendarHelper.m */,
+				A7826FDB1C113CFA007AA18D /* KMCalendarItem.h */,
+				A7826FDC1C113CFA007AA18D /* KMCalendarItem.m */,
+				A7826FDE1C113F84007AA18D /* KMCalendarView.h */,
+				A7826FDF1C113F84007AA18D /* KMCalendarView.m */,
+				A7826FE11C11418C007AA18D /* KMCalendarHeaderView.h */,
+				A7826FE21C11418C007AA18D /* KMCalendarHeaderView.m */,
+				A7826FE41C1142C7007AA18D /* KMCalendar.h */,
+				A7826FE51C1142C7007AA18D /* KMCalendar.m */,
+				A7826FE71C114728007AA18D /* UIColor+Hex.h */,
+				A7826FE81C114728007AA18D /* UIColor+Hex.m */,
+				A7826FEA1C114785007AA18D /* dotGreen@2x.png */,
+			);
+			path = KMCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7826FA61C113B10007AA18D /* KMCalendarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7826FBE1C113B10007AA18D /* Build configuration list for PBXNativeTarget "KMCalendarDemo" */;
+			buildPhases = (
+				A7826FA31C113B10007AA18D /* Sources */,
+				A7826FA41C113B10007AA18D /* Frameworks */,
+				A7826FA51C113B10007AA18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMCalendarDemo;
+			productName = KMCalendarDemo;
+			productReference = A7826FA71C113B10007AA18D /* KMCalendarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7826F9F1C113B10007AA18D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = KleinMioke;
+				TargetAttributes = {
+					A7826FA61C113B10007AA18D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A7826FA21C113B10007AA18D /* Build configuration list for PBXProject "KMCalendarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7826F9E1C113B10007AA18D;
+			productRefGroup = A7826FA81C113B10007AA18D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7826FA61C113B10007AA18D /* KMCalendarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7826FA51C113B10007AA18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7826FEB1C114785007AA18D /* dotGreen@2x.png in Resources */,
+				A7826FBA1C113B10007AA18D /* LaunchScreen.storyboard in Resources */,
+				A7826FB71C113B10007AA18D /* Assets.xcassets in Resources */,
+				A7826FB51C113B10007AA18D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7826FA31C113B10007AA18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7826FD71C113BB0007AA18D /* NSDate+KMCalendar.m in Sources */,
+				A7826FDA1C113C66007AA18D /* KMCalendarHelper.m in Sources */,
+				A7826FDD1C113CFA007AA18D /* KMCalendarItem.m in Sources */,
+				A7826FE91C114728007AA18D /* UIColor+Hex.m in Sources */,
+				A7826FB21C113B10007AA18D /* ViewController.m in Sources */,
+				A7826FAF1C113B10007AA18D /* AppDelegate.m in Sources */,
+				A7826FE31C11418C007AA18D /* KMCalendarHeaderView.m in Sources */,
+				A7826FE01C113F84007AA18D /* KMCalendarView.m in Sources */,
+				A7826FAC1C113B10007AA18D /* main.m in Sources */,
+				A7826FE61C1142C7007AA18D /* KMCalendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7826FB31C113B10007AA18D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7826FB41C113B10007AA18D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7826FB81C113B10007AA18D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7826FB91C113B10007AA18D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7826FBC1C113B10007AA18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7826FBD1C113B10007AA18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7826FBF1C113B10007AA18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KMCalendarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KleinMioke.KMCalendarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7826FC01C113B10007AA18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KMCalendarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KleinMioke.KMCalendarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7826FA21C113B10007AA18D /* Build configuration list for PBXProject "KMCalendarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7826FBC1C113B10007AA18D /* Debug */,
+				A7826FBD1C113B10007AA18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7826FBE1C113B10007AA18D /* Build configuration list for PBXNativeTarget "KMCalendarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7826FBF1C113B10007AA18D /* Debug */,
+				A7826FC01C113B10007AA18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7826F9F1C113B10007AA18D /* Project object */;
+}
