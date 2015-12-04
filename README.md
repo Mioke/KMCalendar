@@ -17,7 +17,7 @@ Bacis operations:
   self.calendar = [[KMCalendar alloc] initWithOrigin:CGPointMake(0.f, 0.f)
                                        recordDateArray:nil
                                         andResizeBlock:^{
-                                            // do UI Resize if need
+                                            // do UI Resize if needed
                                         }];
   self.calendar.delegate = self;
   [self.view addSubview:self.calendar];
